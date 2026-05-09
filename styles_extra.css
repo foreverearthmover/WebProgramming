@@ -1,0 +1,39 @@
+
+        /* pinyon-script-regular - latin */
+        @font-face {
+          font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+          font-family: 'Pinyon Script';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/pinyon-script-v24-latin-regular.woff2') format('woff2'); 
+          src: url('../fonts/pinyon-script-v24-latin-regular.ttf') format('truetype');
+        }
+
+        body {
+          font-family: 'Helvetica', sans-serif;
+          margin: 0;
+          padding: 0;
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: url('https://i.pinimg.com/736x/7e/1a/40/7e1a4016871883b74282fa2da770d041.jpg') center/cover no-repeat #f5f4fb;
+          color: #1f2937;
+        }
+
+        .page {
+            max-width: 620px;
+            width: 100%;
+            margin: 2rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+        }
+          
+        header {
+            font-family: 'Pinyon Script', cursive;
+            text-align: center;
+            margin-bottom: 20px;
+            color:deeppink;
+        }
