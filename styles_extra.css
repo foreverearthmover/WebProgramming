@@ -5,8 +5,8 @@
   font-style: normal;
   font-weight: 400;
   src:
-    url('../fonts/pinyon-script-v24-latin-regular.woff2') format('woff2'),
-    url('../fonts/pinyon-script-v24-latin-regular.ttf') format('truetype');
+    url('./fonts/pinyon-script-v24-latin-regular.woff2') format('woff2'),
+    url('./fonts/pinyon-script-v24-latin-regular.ttf') format('truetype');
 }
 
         body {
